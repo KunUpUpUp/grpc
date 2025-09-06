@@ -13,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -86,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757120908967</updated>
       <workItem from="1757120909857" duration="185000" />
-      <workItem from="1757121151170" duration="1641000" />
+      <workItem from="1757121151170" duration="1943000" />
     </task>
     <servers />
   </component>
@@ -115,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
