@@ -4,15 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.seasugar</groupId>
     <artifactId>grpc-client</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>grpc-client</name>
-    <description>grpc-client</description>
-
-    <parent>
-        <groupId>com.seasugar</groupId>
-        <artifactId>grpc</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <java.version>1.8</java.version>
@@ -20,12 +12,12 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.6.13</spring-boot.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -35,6 +27,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.seasugar</groupId>
+            <artifactId>grpc-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>net.devh</groupId>
+            <artifactId>grpc-client-spring-boot-starter</artifactId>
+            <version>2.14.0.RELEASE</version>
         </dependency>
     </dependencies>
     <dependencyManagement>
@@ -66,7 +68,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.seasugar.client.GrpcClientApplication</mainClass>
+                    <mainClass>com.seasugar.grpcclient.GrpcClientApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

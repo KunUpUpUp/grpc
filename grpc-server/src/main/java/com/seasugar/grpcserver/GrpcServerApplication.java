@@ -1,13 +1,11 @@
-package com.seasugar.grpcclient;
+package com.seasugar.grpcserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GrpcClientApplication {
-
+public class GrpcServerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(GrpcClientApplication.class, args);
+        SpringApplication.run(GrpcServerApplication.class, args);
     }
-
 }
